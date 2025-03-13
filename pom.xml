@@ -268,9 +268,8 @@
         </dependency>
         <dependency>
             <groupId>org.mongodb</groupId>
-            <artifactId>mongo-java-driver</artifactId>
-            <version>3.12.8</version>
-            <scope>compile</scope>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>5.2.0</version>
         </dependency>
         <dependency>
             <groupId>me.clip</groupId>
@@ -298,6 +297,13 @@
             <version>dev-SNAPSHOT</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/libs/AquaCoreAPI.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>cc.insidious.akuma</groupId>
+            <artifactId>api</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/Akuma-API-1.2.8-SNAPSHOT.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>dev.phoenix.phoenix</groupId>
